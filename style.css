@@ -1,0 +1,59 @@
+.banner {
+	background: url(bk_name_vi.png) no-repeat 50%;
+	color: navy; !important;
+	font-family: "Arial" !important;
+	background-size: 50%;
+	padding-top: 12rem;
+	padding-bottom: 3rem;
+	text-align: center !important;
+}
+
+.slogan {
+	background-color: lightblue !important;
+	font-family: sans-serif !important;
+	text-align: center !important;
+	width: 100%;
+	padding-right: 3rem;
+	padding-left: 3rem;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -1;
+	max-width: 100%;
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+.block_3 {
+	flex: 0 0 auto;
+	width: 33.3333333333333%;
+}
+
+.block_2 {
+	flex: 0 0 auto;
+	width: 50%;
+}
+
+.noidung {
+	color: navy !important;
+	font-family: "Prompt" !important;
+	text-align: left;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.slogan_1 {
+	font-family: sans-serif !important;
+	color: navy;
+	font-size: 20px;
+	text-align: center !important;
+	width: 50%;
+	padding-right: 15rem;
+	padding-left: 15rem;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
