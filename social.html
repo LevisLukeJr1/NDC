@@ -2,61 +2,174 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>CLB Truyền Thông - THPT Nguyễn Đình Chiểu</title>
+  <title>CLB Truyền Thông | THPT Nguyễn Đình Chiểu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      background: linear-gradient(135deg, #0b3c5d, #145374);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* NAV */
+    nav {
+      background: #f4d35e;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 12px 0;
+      font-weight: 600;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #0b3c5d;
+    }
+
+    /* MAIN */
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      background: white;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    section h2 {
+      color: #0b3c5d;
+      margin-bottom: 15px;
+      border-left: 5px solid #f4d35e;
+      padding-left: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    /* BUTTON */
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #0b3c5d;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #145374;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #0b3c5d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav {
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+    }
+  </style>
 </head>
 
-<body style="margin:0; font-family: Arial, Helvetica, sans-serif; background:#f4f6f8;">
+<body>
 
-  <!-- HEADER -->
-  <header style="background:#0b3c5d; color:white; padding:20px;">
-    <h1 style="margin:0;">CLB Truyền Thông</h1>
-    <p style="margin:5px 0 0;">THPT Nguyễn Đình Chiểu</p>
+  <header>
+    <h1>CLB Truyền Thông</h1>
+    <p>THPT Nguyễn Đình Chiểu</p>
   </header>
 
-  <!-- NAV -->
-  <nav style="background:#f4d35e; padding:10px;">
-    <a href="#" style="margin-right:15px; text-decoration:none; color:#000;">Trang chủ</a>
-    <a href="#" style="margin-right:15px; text-decoration:none; color:#000;">Giới thiệu</a>
-    <a href="#" style="margin-right:15px; text-decoration:none; color:#000;">Hoạt động</a>
-    <a href="#" style="text-decoration:none; color:#000;">Liên hệ</a>
-  </nav>
+  <main>
 
-  <!-- MAIN CONTENT -->
-  <main style="padding:30px;">
-    
-    <section style="margin-bottom:30px;">
+    <section>
       <h2>Giới thiệu</h2>
       <p>
-        CLB Truyền Thông là nơi kết nối những học sinh yêu thích sáng tạo nội dung,
-        nhiếp ảnh, viết bài, thiết kế và tổ chức sự kiện trong trường.
+        CLB Truyền Thông là nơi hội tụ những học sinh đam mê sáng tạo nội dung,
+        truyền thông học đường và phát triển kỹ năng làm việc nhóm.
       </p>
     </section>
 
-    <section style="margin-bottom:30px;">
+    <section>
       <h2>Hoạt động nổi bật</h2>
       <ul>
-        <li>Đưa tin và truyền thông các sự kiện của trường</li>
-        <li>Chụp ảnh, quay video hoạt động học đường</li>
+        <li>Truyền thông các sự kiện và phong trào của trường</li>
+        <li>Chụp ảnh, quay video, dựng clip</li>
         <li>Thiết kế poster, banner, ấn phẩm truyền thông</li>
-        <li>Quản lý fanpage và nội dung trực tuyến</li>
+        <li>Quản lý và phát triển nội dung trực tuyến</li>
       </ul>
     </section>
 
     <section>
-      <h2>Tham gia CLB</h2>
+      <h2>Tham gia cùng chúng tôi</h2>
       <p>
-        CLB luôn chào đón các bạn học sinh năng động, sáng tạo và có tinh thần học hỏi.
-        Không cần kinh nghiệm – chỉ cần đam mê!
+        CLB luôn chào đón những bạn học sinh năng động, sáng tạo và có tinh thần học hỏi.
+        Không yêu cầu kinh nghiệm – chỉ cần đam mê!
       </p>
+      <a href="#" class="btn">Đăng ký tham gia</a>
     </section>
 
   </main>
 
-  <!-- FOOTER -->
-  <footer style="background:#0b3c5d; color:white; text-align:center; padding:15px;">
+  <footer>
+    <p>Địa Chỉ: 333A4, Đại lộ Đồng Khởi, Phường Phú Tân, Tỉnh Vĩnh Long</p>
     <button onclick="history.back()">Go Back</button>
-    <p>THPT Nguyễn Đình Chiểu</p>
+    © 2026 NDC Social Club
   </footer>
 
 </body>
