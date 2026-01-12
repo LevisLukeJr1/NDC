@@ -1,7 +1,8 @@
-.banner {
-	background: url(bk_name_vi.png) no-repeat 50%;
-	color: navy; !important;
-	font-family: "Arial" !important;
+banner {
+	background: url(Presentation2.png) no-repeat 0%;
+	color: crimson !important;
+	font-family: sans-serif !important;
+	font-size: 20px;
 	background-size: 50%;
 	padding-top: 12rem;
 	padding-bottom: 3rem;
@@ -9,7 +10,8 @@
 }
 
 .slogan {
-	background-color: lightblue !important;
+	background-color: seagreen !important;
+	color: white !important;
 	font-family: sans-serif !important;
 	text-align: center !important;
 	width: 100%;
@@ -57,3 +59,17 @@
 	padding-top: 7rem;
 	padding-bottom: 7rem;
 }
+.footer {
+	background-color: darkred !important;
+	font-family: sans-serif !important;
+	text-align: left !important;
+	color: white !important;
+	width: 100%;
+	padding-right: 3rem;
+	padding-left: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+a:link {color: white;}
+a:visited {color: mintcream;}
+a:hover {color: lightblue;}
