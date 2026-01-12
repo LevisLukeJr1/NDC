@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>NDC Volunteer Club</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- GOOGLE SANS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* RESET */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Google Sans', sans-serif;
+    }
+
+    body {
+      background: #f5f7f6;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* HERO */
+    .hero {
+      background:
+        linear-gradient(rgba(30, 120, 70, 0.75), rgba(30, 120, 70, 0.75)),
+        url("476775898_604187075866751_5864352936185176026_n.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      opacity: 0.95;
+    }
+
+    /* NAV */
+    nav {
+      background: #2e7d32;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 14px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.8;
+    }
+
+    /* MAIN */
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      background: white;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+
+    section h2 {
+      color: #2e7d32;
+      margin-bottom: 15px;
+      font-weight: 700;
+      border-left: 5px solid #81c784;
+      padding-left: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    /* BUTTON */
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      background: #2e7d32;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #1b5e20;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2.1rem;
+      }
+
+      nav {
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+    <h1>CLB Thiện Nguyện</h1>
+    <p>Trường THPT Nguyễn Đình Chiểu</p>
+  </header>
+
+  <nav>
+    <a href="#">Trang chủ</a>
+    <a href="#">Giới thiệu</a>
+    <a href="#">Hoạt động</a>
+    <a href="#">Tham gia</a>
+    <a href="#">Liên hệ</a>
+  </nav>
+
+  <main>
+
+    <section>
+      <h2>Giới thiệu</h2>
+      <p>
+        Câu lạc bộ Thiện Nguyện là nơi kết nối những học sinh giàu lòng nhân ái,
+        cùng nhau lan tỏa yêu thương thông qua các hoạt động vì cộng đồng.
+      </p>
+    </section>
+
+    <section>
+      <h2>Hoạt động tiêu biểu</h2>
+      <ul>
+        <li>Quyên góp sách vở và đồ dùng học tập</li>
+        <li>Thăm hỏi và giúp đỡ các hoàn cảnh khó khăn</li>
+        <li>Tổ chức các chương trình thiện nguyện học đường</li>
+        <li>Lan tỏa thông điệp sống tích cực</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tham gia cùng chúng tôi</h2>
+      <p>
+        CLB luôn chào đón các bạn học sinh có tinh thần sẻ chia,
+        sẵn sàng đóng góp thời gian và sức trẻ cho cộng đồng.
+      </p>
+      <a href="#" class="btn">Đăng ký tham gia</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><a href="https://www.facebook.com/profile.php?id=100064325246170">Facebook</a></p>
+    © 2026 NDC Volunteer Club
+  </footer>
+
+</body>
+</html>
