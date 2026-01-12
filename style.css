@@ -1,4 +1,4 @@
-banner {
+.banner {
 	background: url(Presentation2.png) no-repeat 0%;
 	color: crimson !important;
 	font-family: sans-serif !important;
@@ -73,3 +73,12 @@ banner {
 a:link {color: white;}
 a:visited {color: mintcream;}
 a:hover {color: lightblue;}
+
+.sportsbanner {
+	background-color: dimgrey !important;
+	color: white !important;
+	text-align: center !important;
+	width: 150%
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
