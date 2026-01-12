@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
+
 .banner {
 	background: url(Presentation2.png) no-repeat 0%;
 	color: crimson !important;
-	font-family: "Segoe UI" !important;
+	font-family: "Google Sans" !important;
 	font-size: 20px;
 	background-size: 50%;
 	padding-top: 12rem;
