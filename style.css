@@ -83,3 +83,9 @@ a:hover {color: lightblue;}
 	padding-top: 7rem;
 	padding-bottom: 7rem;
 }
+
+.sportsslogan {
+	color: crimson !important;
+	font-family: "Segoe UI" !important;
+	font-size: 18px;
+}
